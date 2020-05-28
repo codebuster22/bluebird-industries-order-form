@@ -1,0 +1,13 @@
+.app-form{
+    background: linear-gradient(to right, #a1ffce, #faffd1);
+    margin: 5rem auto;
+    width: 60%;
+    padding: 5rem 5rem;
+    -webkit-box-shadow: -9px -10px 32px -15px rgba(0,0,0,0.52);
+    -moz-box-shadow: -9px -10px 32px -15px rgba(0,0,0,0.52);
+    box-shadow: -9px -10px 32px -15px rgba(0,0,0,0.52);
+}
+
+.app-footer{
+    background: rgba(256, 256, 256, 0.5);
+}
