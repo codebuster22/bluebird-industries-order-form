@@ -12,7 +12,7 @@
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" style="font-size: 40px" href="index.html">
                 <img src="./images/logo.png" width="60" height="60" class="d-inline-block align-top" alt="logo">
-                Bluebird Industries
+                Bluebird Industries Requirement Form
             </a>
         </nav>
     </div>
@@ -21,10 +21,11 @@
     </div>
     <div class="app-body">
         <div class="app-form">
+          <h1 class="app-form-heading">Requirement Form</h1>
             <form>
                 <div class="form-group">
                     <label for="InputName">Name</label>
-                    <input type="password" class="form-control" id="InputName" placeholder="Name">
+                    <input type="name" class="form-control" id="InputName" placeholder="Name">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
@@ -37,47 +38,54 @@
                 </div>
                 <div class="form-group">
                     <label for="InputProducts">Select Products</label>
-                    <div class="form-check" id="InputProducts">
+                    <div class="form-checked" id="InputProducts">
                         <input class="form-check-input" type="checkbox" value="" id="surgicalMask">
                         <label class="form-check-label" for="surgicalMask">
                             Surgical 3 Ply Mask
                         </label>
+                        <input type="text" class="input-qty" id="surgicalMaskQty" aria-describedby="emailHelp" placeholder="Enter Quantity">
                     </div>
-                    <div class="form-check">
+                    <div class="form-checked">
                         <input class="form-check-input" type="checkbox" value="" id="N95Mask">
                         <label class="form-check-label" for="N95Mask">
                             N-95 Mask
                         </label>
+                        <input type="text" class="input-qty" id="N95MaskQty" aria-describedby="emailHelp" placeholder="Enter Quantity">
                     </div>
-                    <div class="form-check">
+                    <div class="form-checked">
                         <input class="form-check-input" type="checkbox" value="" id="sanitizer">
                         <label class="form-check-label" for="sanitizer">
                             Hand Sanitizer
                         </label>
+                        <input type="text" class="input-qty" id="sanitizerQty" aria-describedby="emailHelp" placeholder="Enter Quantity">
                     </div>
-                    <div class="form-check">
+                    <div class="form-checked">
                         <input class="form-check-input" type="checkbox" value="" id="gloves">
                         <label class="form-check-label" for="gloves">
                             Examination Gloves
                         </label>
+                        <input type="text" class="input-qty" id="glovesQty" aria-describedby="emailHelp" placeholder="Enter Quantity">
                     </div>
-                    <div class="form-check">
+                    <div class="form-checked">
                         <input class="form-check-input" type="checkbox" value="" id="ppeKit">
                         <label class="form-check-label" for="ppeKit">
                             PPE Kit
                         </label>
+                        <input type="text" class="input-qty" id="ppeKitQty" aria-describedby="emailHelp" placeholder="Enter Quantity">
                     </div>
-                    <div class="form-check">
+                    <div class="form-checked">
                         <input class="form-check-input" type="checkbox" value="" id="coverAll">
                         <label class="form-check-label" for="coverAll">
                             Cover-All
                         </label>
+                        <input type="text" class="input-qty" id="coverAllQty" aria-describedby="emailHelp" placeholder="Enter Quantity">
                     </div>
-                    <div class="form-check">
+                    <div class="form-checked">
                         <input class="form-check-input" type="checkbox" value="" id="faceShield">
                         <label class="form-check-label" for="faceShield">
                             Face Shield
                         </label>
+                        <input type="text" class="input-qty" id="faceShieldQty" aria-describedby="emailHelp" placeholder="Enter Quantity">
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
@@ -85,12 +93,12 @@
         </div>
     </div>
     <div class="app-footer">
-        <nav class="navbar navbar-light">
-            <div class="">
+        <nav class="app-footer-nav navbar-light">
+            <div class="footer-nav-logo">
                 <img src="images/logo.png" width="45px" height="45px"/>
                 <small class="d-block mb-3 text-muted">© 2020</small>
             </div>
-            <div class="">
+            <div class="footer-nav-contact">
                 <h5>Contact</h5>
                 <ul class="list-unstyled text-small">
                     <li><p class="text-muted">Mihirsinh Parmar</p></li>
